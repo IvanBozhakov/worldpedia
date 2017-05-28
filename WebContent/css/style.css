@@ -1,0 +1,275 @@
+@CHARSET "UTF-8";
+/*register*/
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+body, html{
+     height: 100%;
+ 	background-image: url("http://localhost:8080/Worldpedia/images/bg.jpg");
+ 	background-color: rgba(0, 0, 0, 0.14);
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+.userpic-menu img {
+  float: none;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.user-menu a{
+	display:inline;
+}
+.user-menu{
+	top: 11px;
+}
+.user-menu img{
+	display:inline;
+}
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+
+/*end register*/
+
+.overlay{
+	/*position: absolute;
+    width: 99%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.14);
+    text-align: center;
+    font-size: 5rem;
+    z-index: 16;
+    color: #505050;
+    line-height: 300px;*/
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.center-text{
+	text-align: center;
+}
+.image-small{
+	height: 60px;
+	width: 80px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.admin-post-btn{
+	    margin: 10px;
+}
+.upload-image-form{
+	background: #eee;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.inactive{
+	display:none;
+}
+.fv-form{
+	display:inline;
+}
+.map-icon{
+	margin-left:5px;
+	cursor:pointer;
+}
+.map-icon:hover{
+	opacity:0.8;
+}
+.modal-map{
+	position: fixed;
+    background: #fff;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    z-index: 31;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+.overlay{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 30;
+    display:none;
+}
+.closeModal{
+	position: absolute;
+    top: 4px;
+    right: 15px;
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+}
+.comment-btn-togle{
+	width: 100%;
+}
+.item-comment{
+	padding: 10px;
+    border-bottom: 2px solid #eee;
+}
+.item-comment div{
+	margin-left:40px;
+}
+.cmnt-form textarea{
+	border-radius:3px;
+	border:2px solid #ccc6c6;
+	padding:10px;
+}
+.comment-btn{
+	position: relative;
+    top: -17px;
+}
+.add-comment-wrap{
+	padding:20px;	
+}
+.no-comment{
+	margin: 0 auto;
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+    padding: 10px;
+}
+.populars-wrap{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+   /* border-radius: 6px;*/
+    position: relative;
+    z-index: 1;
+    transition: opacity .2s;
+}
+.populars-wrap h2{
+	color:white;
+}
+.populars-wrap h3{
+	    color: #0275d8;
+    /* border: 2px solid red; */
+    padding: 0px;
+    position: relative;
+    top: -25px;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.a-tumb{
+	height: 250px;
+	cursor:pointer;
+}
+.fa-tags{
+	cursor:pointer;
+}
+.tagged_list{
+	    list-style-type: none;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 30;
+    border-radius: 3px;
+    width: 200px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    left: 50px;
+    top: 0px;
+}
+.profile_imaes_landmarks{
+	    float: none;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 5% !important;
+    -moz-border-radius: 5% !important;
+    border-radius: 5% !important;
+
+}
+.imag_wrap{
+	border-radius:3px;
+	width: 50px;
+	height: 50px;
+}
+.date{
+	font-size:10px;
+	color:#777;
+}
+.tags_user{
+	position: relative;
+    right: 204px;
+    padding:10px;
+}
+.landmark_name{
+	text-align: right;
+    width: 175px;
+    position: relative;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 12px;
+}
+
